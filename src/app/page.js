@@ -12,6 +12,7 @@ import DataTable from "@/components/DataTable";
 import ReferralBanner from "@/components/ReferralBanner";
 import Conclusions from "@/components/Conclusions";
 import Glossary from "@/components/Glossary";
+import KeywordsSection from "@/components/KeywordsSection";
 
 import {
   augustExecutiveMetrics,
@@ -52,7 +53,8 @@ import {
   Trophy, 
   Sparkles,
   Newspaper,
-  GitCompare
+  GitCompare,
+  Hash
 } from "lucide-react";
 
 export default function Home() {
@@ -71,11 +73,11 @@ export default function Home() {
   useEffect(() => {
     let sections = [];
     if (periodType === "annual") {
-      sections = ["annual-overview", "annual-channels", "annual-pages", "annual-conclusions", "glossary"];
+      sections = ["annual-overview", "annual-channels", "annual-pages", "keywords", "annual-conclusions", "glossary"];
     } else if (isComparing) {
-      sections = ["comp-overview", "conclusions", "glossary"];
+      sections = ["comp-overview", "keywords", "conclusions", "glossary"];
     } else {
-      sections = ["overview", "careers", "trends", "pages", "demographics", "referrals", "seo", "content", "conclusions", "glossary"];
+      sections = ["overview", "careers", "trends", "pages", "keywords", "demographics", "referrals", "seo", "content", "conclusions", "glossary"];
     }
 
     const observerCallback = (entries) => {
@@ -231,6 +233,10 @@ export default function Home() {
                 <MonthComparison />
               </section>
 
+              <section id="keywords" className="scroll-mt-20">
+                <KeywordsSection />
+              </section>
+
               <section id="conclusions" className="scroll-mt-20">
                 <Conclusions />
               </section>
@@ -292,6 +298,11 @@ export default function Home() {
                     linkKey="page"
                   />
                 </div>
+              </section>
+
+              {/* Section: Palabras Clave (SEO) */}
+              <section id="keywords" className="scroll-mt-20">
+                <KeywordsSection />
               </section>
 
               {/* Section: Conclusiones Anuales */}
@@ -451,7 +462,12 @@ export default function Home() {
                 </div>
               </section>
 
-              {/* Section 5: Demografía y Dispositivos */}
+              {/* Section 5: Palabras Clave (SEO) por Carrera */}
+              <section id="keywords" className="scroll-mt-20 space-y-6">
+                <KeywordsSection />
+              </section>
+
+              {/* Section 6: Demografía y Dispositivos */}
               <section id="demographics" className="scroll-mt-20 space-y-6">
                 <div className="flex items-center justify-between border-b border-gray-50 pb-3">
                   <h3 className="text-xl md:text-2xl font-bold text-[lab(29%_-0.04_-7.9)] flex items-center gap-2.5">

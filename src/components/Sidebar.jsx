@@ -17,7 +17,8 @@ import {
   Trophy,
   GitCompare,
   Calendar,
-  ChevronDown
+  ChevronDown,
+  Hash
 } from "lucide-react";
 
 export default function Sidebar({
@@ -41,6 +42,7 @@ export default function Sidebar({
     { id: "careers", label: "Ranking de Carreras", icon: Trophy },
     { id: "trends", label: "Tendencias de Tráfico", icon: TrendingUp },
     { id: "pages", label: "Páginas y Blog", icon: FileText },
+    { id: "keywords", label: "Palabras Clave (SEO)", icon: Hash },
     { id: "demographics", label: "Dispositivos y Países", icon: Globe },
     { id: "referrals", label: "Fuentes y Referidos", icon: ArrowUpRight },
     { id: "seo", label: "Search Console (SEO)", icon: Search },
@@ -51,6 +53,7 @@ export default function Sidebar({
 
   const comparisonItems = [
     { id: "comp-overview", label: "Métricas Comparativas", icon: GitCompare },
+    { id: "keywords", label: "Palabras Clave (SEO)", icon: Hash },
     { id: "conclusions", label: "Conclusiones Comparativas", icon: CheckSquare },
     { id: "glossary", label: "Glosario y FAQs", icon: HelpCircle },
   ];
@@ -59,6 +62,7 @@ export default function Sidebar({
     { id: "annual-overview", label: "Resumen Anual", icon: BarChart3 },
     { id: "annual-channels", label: "Canales de Tráfico", icon: Layers },
     { id: "annual-pages", label: "Páginas del Año", icon: FileText },
+    { id: "keywords", label: "Palabras Clave (SEO)", icon: Hash },
     { id: "annual-conclusions", label: "Conclusiones Anuales", icon: CheckSquare },
     { id: "glossary", label: "Glosario y FAQs", icon: HelpCircle },
   ];

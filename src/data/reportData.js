@@ -856,3 +856,292 @@ export const glossaryData = [
     utility: "Representa gran parte del tráfico móvil; exige que el sitio cargue en menos de 2 segundos para evitar que el usuario desista."
   }
 ];
+
+// ==========================================
+// ESTRATEGIA DE PALABRAS CLAVE (SEO) POR CARRERA
+// ==========================================
+export const keywordsStrategyData = [
+  {
+    id: "institucional",
+    title: "Institucional, Marca y Admisiones",
+    categoryName: "Institucional",
+    url: "https://www.lametro.edu.ec/",
+    badge: "Marca & Portada",
+    strategicTip: "Optimizar el H1 y meta description del Home para incluir 'Instituto Superior Tecnológico de Diseño en Quito' y reforzar los llamados a admisiones 2026.",
+    headTerms: [
+      "instituto metropolitano de diseño",
+      "la metro quito",
+      "instituto de diseño quito",
+      "institutos superiores en quito",
+      "estudiar diseño en ecuador"
+    ],
+    transactional: [
+      "admisiones la metro 2026",
+      "inscripciones la metro quito",
+      "costo carreras instituto la metro",
+      "institutos de diseño en quito pensiones",
+      "institutos privados acreditados en quito"
+    ],
+    longTailBlog: [
+      "¿cuál es el mejor instituto de diseño en ecuador?",
+      "¿por qué estudiar una carrera técnica o tecnológica de diseño?",
+      "diferencia entre título universitario y tecnológico en ecuador",
+      "carreras cortas de diseño con alta demanda laboral"
+    ],
+    senescyt: [
+      "institutos avalados por senescyt quito",
+      "título de tercer nivel tecnológico diseño senescyt",
+      "instituto superior tecnológico acreditado quito",
+      "registro senescyt carreras de diseño"
+    ]
+  },
+  {
+    id: "catalogo",
+    title: "Catálogo General de Carreras",
+    categoryName: "Oferta Académica",
+    url: "https://www.lametro.edu.ec/carreras/",
+    badge: "Exploración de Oferta",
+    strategicTip: "Añadir un test vocacional rápido en /carreras/ para captar leads de usuarios indecisos que buscan 'carreras creativas en quito'.",
+    headTerms: [
+      "carreras de diseño quito",
+      "oferta académica diseño ecuador",
+      "carreras creativas en quito",
+      "carreras de arte y diseño ecuador"
+    ],
+    transactional: [
+      "estudiar carreras de diseño en quito",
+      "institutos de diseño en quito inscripciones abiertas",
+      "carreras tecnológicas presenciales quito",
+      "carreras de diseño nocturnas en quito"
+    ],
+    longTailBlog: [
+      "¿qué carrera de diseño tiene más campo laboral en ecuador?",
+      "carreras de diseño mejor pagadas en ecuador",
+      "test de orientación vocacional carreras de diseño",
+      "¿cuántos años dura una tecnología en diseño en ecuador?"
+    ],
+    senescyt: [
+      "títulos tecnológicos registrados en senescyt",
+      "carreras tecnológicas de tercer nivel en quito",
+      "tecnologías superiores en diseño ecuador"
+    ]
+  },
+  {
+    id: "industrial",
+    title: "Diseño Industrial",
+    categoryName: "Diseño Industrial",
+    url: "https://www.lametro.edu.ec/diseno-industrial/",
+    badge: "Carrera #1 en Tráfico",
+    strategicTip: "Crear notas de blog y casos de éxito de egresados sobre '¿En qué trabaja un diseñador industrial?' para captar búsquedas informativas y derivarlas al formulario de admisiones.",
+    headTerms: [
+      "diseño industrial quito",
+      "estudiar diseño industrial ecuador",
+      "carrera diseño industrial",
+      "tecnología superior en diseño industrial"
+    ],
+    transactional: [
+      "carrera diseño industrial quito inscripciones",
+      "diseño de productos quito la metro",
+      "malla curricular diseño industrial la metro",
+      "costo de estudiar diseño industrial en quito"
+    ],
+    longTailBlog: [
+      "¿en qué puede trabajar un diseñador industrial en ecuador?",
+      "sueldo promedio de un diseñador industrial en quito",
+      "empresas que contratan diseñadores industriales en ecuador",
+      "diseño de mobiliario y productos sustentables ecuador"
+    ],
+    senescyt: [
+      "tecnólogo superior en diseño industrial senescyt",
+      "título tercer nivel diseño industrial ecuador",
+      "carrera técnica diseño industrial quito"
+    ]
+  },
+  {
+    id: "modas",
+    title: "Diseño de Modas",
+    categoryName: "Diseño de Modas",
+    url: "https://www.lametro.edu.ec/diseno-modas/",
+    badge: "Líder SEO Orgánico GSC",
+    strategicTip: "Potenciar artículos sobre patronaje digital y creación de marcas de ropa, que son los términos con mayor engagement en aspirantes jóvenes.",
+    headTerms: [
+      "diseño de modas quito",
+      "estudiar diseño de modas ecuador",
+      "escuela de modas quito",
+      "carrera diseño de modas"
+    ],
+    transactional: [
+      "carrera de modas en quito inscripciones",
+      "patronaje digital y confección quito",
+      "institutos de diseño de modas en quito precios",
+      "diseño de indumentaria y alta costura la metro"
+    ],
+    longTailBlog: [
+      "¿cuánto dura la carrera de diseño de modas en ecuador?",
+      "cómo crear una marca de ropa en ecuador paso a paso",
+      "salidas laborales de una diseñadora de modas en quito",
+      "patronaje digital vs patronaje tradicional en modas"
+    ],
+    senescyt: [
+      "tecnología superior en diseño de modas senescyt",
+      "instituto acreditado diseño de modas quito",
+      "título tercer nivel diseño textil e indumentaria"
+    ]
+  },
+  {
+    id: "grafico",
+    title: "Diseño Gráfico",
+    categoryName: "Diseño Gráfico",
+    url: "https://www.lametro.edu.ec/diseno-grafico/",
+    badge: "Demanda Visual Continua",
+    strategicTip: "Asociar la carrera con 'Branding' y 'Marketing Digital' en los títulos para diferenciarse de institutos que solo enseñan manejo de software básico.",
+    headTerms: [
+      "diseño gráfico quito",
+      "estudiar diseño gráfico ecuador",
+      "institutos de diseño gráfico en quito",
+      "carrera diseño gráfico"
+    ],
+    transactional: [
+      "carrera de diseño gráfico presencial quito",
+      "branding e identidad corporativa quito",
+      "instituto de diseño gráfico en quito admisiones",
+      "malla diseño gráfico la metro quito"
+    ],
+    longTailBlog: [
+      "¿dónde estudiar diseño gráfico en quito?",
+      "diseño gráfico y marketing digital: demanda laboral en ecuador",
+      "programas clave que domina un diseñador gráfico profesional",
+      "cuánto cobra un diseñador gráfico freelance en ecuador"
+    ],
+    senescyt: [
+      "tecnología en diseño gráfico senescyt",
+      "título de tercer nivel diseño gráfico ecuador",
+      "instituto superior diseño gráfico acreditado"
+    ]
+  },
+  {
+    id: "interiores",
+    title: "Diseño de Interiores",
+    categoryName: "Diseño de Interiores",
+    url: "https://www.lametro.edu.ec/diseno-interiores/",
+    badge: "Espacios & Render 3D",
+    strategicTip: "Publicar renders y proyectos de vitrinismo/locales comerciales de estudiantes para captar búsquedas de arquitectura interior comercial.",
+    headTerms: [
+      "diseño de interiores quito",
+      "arquitectura de interiores ecuador",
+      "estudiar diseño de interiores en quito",
+      "carrera diseño de interiores"
+    ],
+    transactional: [
+      "carrera diseño de interiores quito inscripciones",
+      "decoración de interiores y modelado 3d quito",
+      "diseño de espacios comerciales y vitrinismo quito",
+      "institutos de diseño de interiores en quito costos"
+    ],
+    longTailBlog: [
+      "diferencia entre decorador y diseñador de interiores",
+      "¿cuánto gana un diseñador de interiores en ecuador?",
+      "tendencias de diseño de interiores residencial en quito",
+      "programas de render 3D que se aprenden en diseño de interiores"
+    ],
+    senescyt: [
+      "tecnología superior en diseño de interiores senescyt",
+      "título tercer nivel diseño de espacios interiores",
+      "carrera acreditada diseño de interiores quito"
+    ]
+  },
+  {
+    id: "multimedia",
+    title: "Diseño Multimedia",
+    categoryName: "Diseño Multimedia",
+    url: "https://www.lametro.edu.ec/diseno-multimedia/",
+    badge: "Animación & UX/UI",
+    strategicTip: "Destacar los términos 'UX/UI' y 'Animación 3D' en la página de la carrera, ya que son las ramas con mayores salarios internacionales en remoto.",
+    headTerms: [
+      "diseño multimedia quito",
+      "carrera de multimedia ecuador",
+      "animación digital y diseño interactivo quito",
+      "estudiar multimedia en ecuador"
+    ],
+    transactional: [
+      "estudiar diseño multimedia en quito la metro",
+      "carrera de animación 2d y 3d quito",
+      "diseño ux ui y desarrollo interactivo ecuador",
+      "inscripciones carrera multimedia quito 2026"
+    ],
+    longTailBlog: [
+      "¿qué hace un diseñador multimedia y cuál es su campo laboral?",
+      "industria de animación y videojuegos en ecuador",
+      "por qué estudiar diseño UX UI en quito",
+      "software de animación que usan los profesionales multimedia"
+    ],
+    senescyt: [
+      "tecnólogo superior en producción multimedia senescyt",
+      "título tercer nivel multimedia y animación ecuador",
+      "carrera tecnológica diseño multimedia quito"
+    ]
+  },
+  {
+    id: "fotografico",
+    title: "Diseño Fotográfico",
+    categoryName: "Diseño Fotográfico",
+    url: "https://www.lametro.edu.ec/diseno-fotografico/",
+    badge: "Fotografía Profesional",
+    strategicTip: "Crear contenido sobre 'Fotografía de producto para e-commerce' y 'Dirección de arte en moda', que conectan directamente con emprendedores y agencias.",
+    headTerms: [
+      "diseño fotográfico quito",
+      "fotografía profesional ecuador",
+      "estudiar fotografía en quito",
+      "carrera de fotografía quito"
+    ],
+    transactional: [
+      "carrera de fotografía profesional en quito admisiones",
+      "fotografía publicitaria y de modas quito",
+      "instituto de fotografía en quito la metro",
+      "estudio e iluminación fotográfica profesional quito"
+    ],
+    longTailBlog: [
+      "¿cómo vivir de la fotografía en ecuador?",
+      "mejores cámaras y lentes para estudiar fotografía profesional",
+      "salidas laborales de un fotógrafo comercial en quito",
+      "fotografía de producto para e-commerce en ecuador"
+    ],
+    senescyt: [
+      "tecnología superior en fotografía senescyt",
+      "título tercer nivel diseño fotográfico quito",
+      "carrera técnica fotografía avalada senescyt"
+    ]
+  },
+  {
+    id: "publicitario",
+    title: "Diseño Publicitario",
+    categoryName: "Diseño Publicitario",
+    url: "https://www.lametro.edu.ec/diseno-publicitario/",
+    badge: "Creatividad & Marcas",
+    strategicTip: "Posicionar la diferencia entre diseñador publicitario y diseñador gráfico, enfocándose en la dirección creativa y estrategia para marcas y agencias.",
+    headTerms: [
+      "diseño publicitario quito",
+      "dirección de arte publicitaria ecuador",
+      "carrera de publicidad y diseño quito",
+      "estudiar creatividad publicitaria ecuador"
+    ],
+    transactional: [
+      "carrera de diseño publicitario en quito admisiones",
+      "marketing visual y campañas creativas quito",
+      "institutos de publicidad en quito la metro",
+      "dirección creativa para agencias de publicidad ecuador"
+    ],
+    longTailBlog: [
+      "¿qué hace un director de arte en una agencia de publicidad?",
+      "cómo armar un portafolio publicitario para conseguir trabajo",
+      "diferencia entre diseño gráfico y diseño publicitario",
+      "el rol del diseñador publicitario en redes sociales y marcas"
+    ],
+    senescyt: [
+      "tecnología en diseño publicitario senescyt",
+      "título tercer nivel publicidad y diseño ecuador",
+      "carrera tecnológica diseño publicitario quito"
+    ]
+  }
+];
+
