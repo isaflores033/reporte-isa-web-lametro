@@ -12,8 +12,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Reporte de Tráfico Web - Julio 2026",
-  description: "Reporte mensual interactivo de visitas y tráfico web.",
+  title: "Reporte Orgánico de Tráfico Web La Metro - Isa Flores",
+  description: "Dashboard interactivo de analítica web, métricas de visitas, SEO y rendimiento de carreras de La Metro por Isabel Flores.",
+  openGraph: {
+    title: "Reporte Orgánico de Tráfico Web La Metro - Isa Flores",
+    description: "Dashboard interactivo de analítica web, métricas de visitas, SEO y rendimiento de carreras de La Metro por Isabel Flores.",
+    siteName: "La Metro Web Analytics",
+  }
 };
 
 export default function RootLayout({ children }) {
