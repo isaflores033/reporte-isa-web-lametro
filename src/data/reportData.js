@@ -867,7 +867,7 @@ export const keywordsStrategyData = [
     categoryName: "Institucional",
     url: "https://www.lametro.edu.ec/",
     badge: "Marca & Portada",
-    strategicTip: "Optimizar el H1 y meta description del Home para incluir 'Instituto Superior Tecnológico de Diseño en Quito' y reforzar los llamados a admisiones 2026.",
+    strategicTip: "Optimizada. Reforzar los llamados a admisiones 2026.",
     headTerms: [
       "instituto metropolitano de diseño",
       "la metro quito",
