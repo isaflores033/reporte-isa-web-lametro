@@ -246,11 +246,11 @@ export default function Home() {
                VIEW MODE: ANNUAL REPORT (2026)
                ========================================================================= */
             <div className="space-y-12">
-              {/* Section: Resumen Anual (6 Cards en 3x2) */}
+              {/* Section: Reporte Anual (6 Cards en 3x2) */}
               <section id="annual-overview" className="scroll-mt-20 space-y-6">
                 <div className="flex items-center justify-between border-b border-gray-50 pb-3">
                   <h3 className="text-xl md:text-2xl font-bold text-[lab(29%_-0.04_-7.9)] flex items-center gap-2.5">
-                    <BarChart3 className="w-5 h-5 text-[#27313B]" /> Reporte Anual
+                    <BarChart3 className="w-5 h-5 text-[#27313B]" /> Reporte Anual (Vista Rápida)
                   </h3>
                   <span className="text-xs font-semibold text-gray-400">Consolidado {selectedYear}</span>
                 </div>
@@ -362,11 +362,11 @@ export default function Home() {
                VIEW MODE: MONTHLY (AGOSTO O JULIO 2026)
                ========================================================================= */
             <div className="space-y-14">
-              {/* Section 1: Reporte - 6 Cards en 3x2 */}
+              {/* Section 1: Reporte Mensual (Vista Rápida) - 6 Cards en 3x2 */}
               <section id="overview" className="scroll-mt-20 space-y-6">
                 <div className="flex items-center justify-between border-b border-gray-50 pb-3">
                   <h3 className="text-xl md:text-2xl font-bold text-[lab(29%_-0.04_-7.9)] flex items-center gap-2.5">
-                    <BarChart3 className="w-5 h-5 text-[#27313B]" /> Reporte
+                    <BarChart3 className="w-5 h-5 text-[#27313B]" /> Reporte Mensual (Vista Rápida)
                   </h3>
                   <span className="text-xs font-semibold text-gray-400">
                     {selectedMonth === "july" ? "Julio 2026" : "Agosto 2026"}

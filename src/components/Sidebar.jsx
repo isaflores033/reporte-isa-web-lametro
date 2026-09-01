@@ -38,7 +38,7 @@ export default function Sidebar({
   setSelectedYear
 }) {
   const monthlyItems = [
-    { id: "overview", label: "Reporte", icon: BarChart3 },
+    { id: "overview", label: "Reporte Mensual", icon: BarChart3 },
     { id: "careers", label: "Ranking de Carreras", icon: Trophy },
     { id: "trends", label: "Tendencias de Tráfico", icon: TrendingUp },
     { id: "pages", label: "Páginas y Blog", icon: FileText },
