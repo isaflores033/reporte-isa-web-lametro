@@ -38,7 +38,7 @@ export default function Sidebar({
   setSelectedYear
 }) {
   const monthlyItems = [
-    { id: "overview", label: "Resumen Ejecutivo", icon: BarChart3 },
+    { id: "overview", label: "Reporte", icon: BarChart3 },
     { id: "careers", label: "Ranking de Carreras", icon: Trophy },
     { id: "trends", label: "Tendencias de Tráfico", icon: TrendingUp },
     { id: "pages", label: "Páginas y Blog", icon: FileText },
@@ -59,7 +59,7 @@ export default function Sidebar({
   ];
 
   const annualItems = [
-    { id: "annual-overview", label: "Resumen Anual", icon: BarChart3 },
+    { id: "annual-overview", label: "Reporte Anual", icon: BarChart3 },
     { id: "annual-channels", label: "Canales de Tráfico", icon: Layers },
     { id: "annual-pages", label: "Páginas del Año", icon: FileText },
     { id: "keywords", label: "Palabras Clave (SEO)", icon: Hash },
