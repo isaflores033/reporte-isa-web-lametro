@@ -1,16 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
-import { 
-  Search, 
-  Sparkles, 
-  Compass, 
-  GraduationCap, 
-  HelpCircle, 
-  ShieldCheck, 
-  Copy, 
-  Check, 
-  Lightbulb, 
+import {
+  Search,
+  Sparkles,
+  Compass,
+  GraduationCap,
+  HelpCircle,
+  ShieldCheck,
+  Copy,
+  Check,
+  Lightbulb,
   Hash
 } from "lucide-react";
 import { keywordsStrategyData } from "@/data/reportData";
@@ -62,7 +62,6 @@ export default function KeywordsSection() {
         </div>
 
         <span className="text-[11px] font-bold text-[lab(29%_-0.04_-7.9)] bg-[#27313B]/5 px-3 py-1.5 rounded-lg border border-[#27313B]/10 self-start sm:self-auto flex items-center gap-1.5">
-          <Sparkles className="w-3.5 h-3.5 text-[#27313B]" />
           9 Categorías
         </span>
       </div>
@@ -78,11 +77,10 @@ export default function KeywordsSection() {
                 setActiveTab(cat.id);
                 setCopied(false);
               }}
-              className={`px-3 py-1.5 text-xs font-bold rounded-lg whitespace-nowrap transition-all duration-150 cursor-pointer ${
-                isActive
+              className={`px-3 py-1.5 text-xs font-bold rounded-lg whitespace-nowrap transition-all duration-150 cursor-pointer ${isActive
                   ? "bg-[#27313B] text-white shadow-xs"
                   : "bg-gray-100/80 text-gray-600 hover:bg-gray-200/80 hover:text-gray-900"
-              }`}
+                }`}
             >
               {cat.label}
             </button>
@@ -111,11 +109,10 @@ export default function KeywordsSection() {
 
             <button
               onClick={handleCopyKeywords}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg border transition-all self-start sm:self-auto cursor-pointer ${
-                copied
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg border transition-all self-start sm:self-auto cursor-pointer ${copied
                   ? "bg-emerald-50 text-emerald-700 border-emerald-200"
                   : "bg-gray-50 text-gray-600 border-gray-200 hover:bg-gray-100 hover:text-gray-900"
-              }`}
+                }`}
             >
               {copied ? (
                 <>
@@ -143,7 +140,7 @@ export default function KeywordsSection() {
 
           {/* 4 Intent Columns Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            
+
             {/* 1. Búsquedas Principales (Head Terms) */}
             <div className="p-4 bg-gray-50/40 border border-gray-100 rounded-xl space-y-2.5">
               <div className="flex items-center gap-1.5 text-xs font-bold text-[lab(29%_-0.04_-7.9)]">
